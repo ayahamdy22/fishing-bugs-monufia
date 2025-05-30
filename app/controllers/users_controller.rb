@@ -1,11 +1,5 @@
-# class UsersController < ApplicationController
-#   def show
-#     @users = "finally! the buzzle is done."
-#   end
-# end
-
 class UsersController < ApplicationController
-  def index
-    render plain: "Users page is working!"
+  def index 
+    render plain: "finally! the puzzle is done."
   end
 end
